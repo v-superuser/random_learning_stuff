@@ -1,7 +1,8 @@
-package com.example.basiclauncher;
+package com.vaibhav.stocklauncher;
 
 import java.util.List;
 
+import android.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -23,7 +24,7 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.activity_list_item);
 		drawerGrid = (GridView) findViewById(R.id.content);
 		pm =getPackageManager();
 		set_pacs();
