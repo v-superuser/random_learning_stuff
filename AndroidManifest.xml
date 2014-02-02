@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.basiclauncher"
+    package="com.vaibhav.stocklauncher"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -15,7 +15,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:theme="@android:style/Theme.Holo.Wallpaper.NoTitleBar"
-            android:name="com.example.basiclauncher.MainActivity"
+            android:name="com.vaibhav.stocklauncher.MainActivity"
             android:label="@string/app_name"
             android:launchMode="singleTask"
             android:clearTaskOnLaunch="true"
